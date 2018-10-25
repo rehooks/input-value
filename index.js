@@ -1,7 +1,7 @@
 'use strict';
 let { useState } = require('react');
 
-function useInputValue(initialValue, validate) {
+function useInputValue(initialValue) {
   let [value, setValue] = useState(initialValue);
 
   function onChange(event) {

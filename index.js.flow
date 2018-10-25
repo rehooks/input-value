@@ -1,0 +1,6 @@
+interface InputValue<T> {
+  value: T,
+  onChange: (event: HTMLInputElement) => void,
+}
+
+export default function useInputValue<T>(initialValue: T): InputValue<T>;

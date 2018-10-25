@@ -1,6 +1,6 @@
 {
   "name": "@rehooks/input-value",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React hook for creating input values",
   "main": "index.js",
   "repository": "https://github.com/rehooks/input-value",

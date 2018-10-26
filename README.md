@@ -24,3 +24,7 @@ function MyComponent() {
   return <input {...name}/>;
 }
 ```
+
+## License
+
+MIT

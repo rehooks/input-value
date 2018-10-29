@@ -1,12 +1,11 @@
 'use strict';
-let { useState } = require('react');
+let { useState, useCallback } = require('react');
 
 function useInputValue(initialValue) {
   let [value, setValue] = useState(initialValue);
-
-  function onChange(event) {
+  let onChange = useCallback(function(event) {
     setValue(event.currentTarget.value);
-  }
+  }, []);
 
   return {
     value,

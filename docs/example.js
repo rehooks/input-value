@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import useInputValue from './';
+import useInputValue from '../src';
 
 function App() {
   let name = useInputValue('Jamie');

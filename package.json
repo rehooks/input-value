@@ -2,7 +2,7 @@
   "name": "@rehooks/input-value",
   "version": "1.0.0",
   "description": "React hook for creating input values",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/rehooks/input-value",
   "author": "Jamie Kyle <me@thejameskyle.com>",
   "license": "MIT",
@@ -18,11 +18,11 @@
     "value"
   ],
   "files": [
-    "index.*"
+    "src/index.*"
   ],
   "scripts": {
-    "test": "ava test.js",
-    "example": "parcel example.html"
+    "test": "ava ./__tests__/test.js",
+    "example": "parcel ./docs/example.html"
   },
   "dependencies": {
     "react": "^16.7.0-alpha.0"
@@ -37,7 +37,7 @@
   },
   "ava": {
     "require": [
-      "./test-setup.js"
+      "./__tests__/test-setup.js"
     ]
   }
 }

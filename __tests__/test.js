@@ -2,7 +2,7 @@
 let test = require('ava');
 let { createElement: h } = require('react');
 let ReactTestRenderer = require('react-test-renderer');
-let useInputValue = require('./');
+let useInputValue = require('../src');
 
 function render(val) {
   return ReactTestRenderer.create(val);

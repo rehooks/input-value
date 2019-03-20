@@ -8,7 +8,7 @@ function render(val) {
   return ReactTestRenderer.create(val);
 }
 
-test(t => {
+test('it should render component with useInputValue hook', t => {
   function Component() {
     let name = useInputValue('Jamie');
     return h('input', name);
